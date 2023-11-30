@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/img/Imagen1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  #catalogo-container,
+  #resultados-container {
+    display: none;
+  }
+  
+  #catalogo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #detalles-seleccionadas {
+    text-align: left;
+  }
+  
+  #duracion-total {
+    font-weight: bold;
+  }
+  
+
